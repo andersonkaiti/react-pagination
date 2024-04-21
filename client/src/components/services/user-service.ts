@@ -1,6 +1,6 @@
 const baseUrl = `http://localhost:3001`;
 
-type DataType = {
+export type DataType = {
     id: number;
     name: string;
     email: string;
