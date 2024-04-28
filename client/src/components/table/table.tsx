@@ -1,4 +1,4 @@
-import { type DataType } from "@/components/services/user-service";
+import { type DataType } from "@/services/user-service";
 
 type TableProps = {
     data: DataType[];
@@ -24,7 +24,7 @@ export default function Table({ data }: TableProps) {
                 </tr>
             </thead>
             <tbody>
-                {data.map(data => (
+                {data.map((data: DataType) => (
                     <tr
                         key={data.id}
                         className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
