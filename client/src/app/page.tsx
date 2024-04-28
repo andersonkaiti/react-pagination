@@ -1,6 +1,6 @@
 import Table from "@/components/table/table";
 import Pagination from "@/components/pagination/pagination";
-import { getData } from "@/components/services/user-service";
+import { getData } from "@/services/user-service";
 
 type HomeType = {
     searchParams: {
